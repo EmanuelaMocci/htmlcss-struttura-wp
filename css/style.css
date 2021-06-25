@@ -17,7 +17,6 @@
     width: 60%;
     margin: auto;
     border: 1px solid black;
-    height: 800px;
 }
 
 
@@ -31,13 +30,41 @@
     height: 100px;
 }
 
-/* Main */
+/* Main-section superiore*/
 .giallo{
     background-color: #E1D67A;
     height: 300px;
 }
 
+/* Main-section inferiore */
 .blue-sfondo{
     background-color: #0186FB;
-    height: 350px;
+    height: 600px;
+}
+
+.intestazione{
+    background-color: #ABD0E8;
+    height: 70px;
+}
+
+.colonna-laterale{
+    width: 20%;
+    height: 400px;
+    background-color: #ABD0E8;
+    margin-top: 20px;
+}
+
+.sinistra{
+    float: left;
+}
+
+.colonna-centrale{
+    float: left;
+    width: calc(60% - 30px);
+    height: 400px;
+    background-color: #ABD0E8;
+    margin: 20px 15px;
+}
+.destra{
+    float: left;
 }
