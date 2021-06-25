@@ -11,3 +11,33 @@
     clear: both;
     content: "";
 }
+
+/* Contenitore principale */
+.conteiner{
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+    height: 800px;
+}
+
+
+.rosa, .giallo, .blue-sfondo{
+    margin-top: 20px;
+}
+
+/* Header */
+.rosa{
+    background-color: #E57AE6;
+    height: 100px;
+}
+
+/* Main */
+.giallo{
+    background-color: #E1D67A;
+    height: 300px;
+}
+
+.blue-sfondo{
+    background-color: #0186FB;
+    height: 350px;
+}
