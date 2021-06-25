@@ -14,9 +14,8 @@
 
 /* Contenitore principale */
 .conteiner{
-    width: 60%;
+    width: 80%;
     margin: auto;
-    border: 1px solid black;
 }
 
 
@@ -39,7 +38,7 @@
 /* Main-section inferiore */
 .blue-sfondo{
     background-color: #0186FB;
-    height: 600px;
+    height: 510px;
 }
 
 .intestazione{
@@ -67,4 +66,11 @@
 }
 .destra{
     float: left;
+}
+
+/* Footer */
+.viola{
+    height: 70px;
+    background-color: #8602FC;
+    margin-top: 10px;
 }
